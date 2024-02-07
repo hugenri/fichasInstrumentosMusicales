@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Conservatorio de música"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/imageViewCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/fichas_instrumentos" />
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEstudiados"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:background="#052BE4"
+            android:text="ver estudiados"
+            android:padding="8dp"
+            android:radius="8dp" />
+
+        <Button
+            android:id="@+id/btnNoestudiados"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="#052BE4"
+            android:padding="8dp"
+            android:radius="8dp"
+            android:text="No estudiados" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLayout"
+        android:layout_marginTop="16dp"
+        android:background="#B10B4D"
+        android:text="Salir"
+        android:padding="8dp"
+        android:radius="8dp" />
+
+    <TextView
+        android:id="@+id/datosTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSalir"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textAppearance="@android:style/TextAppearance.Small" />
+
+</RelativeLayout>

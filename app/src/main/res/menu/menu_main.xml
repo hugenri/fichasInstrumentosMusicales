@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_viento"
+        android:title="Viento"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_cuerda"
+        android:title="Cuerda"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_percusion"
+        android:title="Percusión"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_electricos"
+        android:title="Instrumentos Eléctricos"
+        app:showAsAction="never" />
+
+
+
+
+</menu>

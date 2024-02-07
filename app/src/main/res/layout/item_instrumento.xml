@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/instrumentoImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/saxofon" />
+
+    <TextView
+        android:id="@+id/nombreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/descripcionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/caracteristicasTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/resenaHistoricaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+    <CheckBox
+        android:id="@+id/checkboxEstudiado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Línea horizontal como separación visual -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

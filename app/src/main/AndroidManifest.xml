@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.programa.fichasinstrumentos_es1821000615_hucr">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ElectricoActivity"></activity>
+        <activity android:name=".InstrumentoElectricoActivity" />
+        <activity android:name=".InstrumentoElectrocoActivity" />
+        <activity android:name=".InstrumentoPercucionActivity" />
+        <activity android:name=".CuerdaActivity" />
+        <activity android:name=".InstrumentosNoEstudiadosActivity" />
+        <activity android:name=".InstrumentosEstudiadosActivity" />
+        <activity android:name=".VientoActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
